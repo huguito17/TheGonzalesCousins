@@ -1,0 +1,155 @@
+#TEST {
+	/*PREFIJOS */
+	background: #444 url("../IMG/Messages/test.png") center center no-repeat;
+	background: -moz-linear-gradient(to right, hsla(0, 0%, 0%, 0.589), hsla(124, 82%, 19%, 0.671)), url(../IMG/Messages/test.png) center;
+	background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.589), hsla(124, 82%, 19%, 0.671)), url(../IMG/Messages/test.png) center;
+	background: -o-linear-gradient(to right, hsla(0, 0%, 0%, 0.589), hsla(124, 82%, 19%, 0.671)), url(../IMG/Messages/test.png) center;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.589), hsla(124, 77%, 30%, 0.747)), url(../IMG/Messages/test.png) center;
+    /* PARA>> Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	width:100%; 
+	height:100%
+}
+#TEST .contenTes{
+	width: 100%;
+	padding: 50px 0;
+}
+#TEST2 {
+	/*PREFIJOS */
+	background: #444 url("../IMG/Tools/H.png") center center no-repeat;
+	background: -moz-linear-gradient(to right, hsla(0, 0%, 0%, 0.589), hsla(124, 77%, 30%, 0.747)), url(../IMG/Tools/H.png) center;
+	background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.589),hsla(124, 77%, 30%, 0.747)), url(../IMG/Tools/H.png) center;
+	background: -o-linear-gradient(to right, hsla(0, 0%, 0%, 0.589),hsla(124, 77%, 30%, 0.747)), url(../IMG/Tools/H.png) center;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.589),hsla(124, 77%, 30%, 0.747)), url(../IMG/Tools/H.png) center;
+    /* PARA>> Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	width:100%; 
+	height:100%
+}
+#TEST2 .contenTes{
+	width: 100%;
+	padding: 50px 0;
+}
+.slider-T{
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+} 
+.testimonial-client{
+	margin-bottom: 15px;
+}
+#a img{
+	width: 140px;
+	height: 140px;
+	margin:auto;
+	box-shadow: 0px 1px 2px black;
+	border-radius: 50%;
+	transform: all 1s;
+}
+#H img{
+	width: 700px;
+	height: 400px;
+	margin:auto;
+	box-shadow: 0px 2px 5px black;
+	border-radius: 20px;
+	transform: all 1s;
+	object-fit: cover;
+}
+.names{
+	font-weight: 600;
+	color: #ffffff;
+	text-shadow: 0px 1px 1px black;
+	text-align: center;
+}
+.namesD{
+	font-size: 24px;
+    padding: 5px 0;
+    color: #ffffff !important;
+    text-shadow: 0px 1px 2px rgb(0, 0, 0);
+    text-align: center;
+    border-bottom: #472407 solid 3px;
+    width: 200px;
+    margin: 0 auto;
+	margin-bottom: 30px;
+}
+.testimonial-text{
+	padding: 20px 80px;
+}
+#b h3{
+	font-size: 25px;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+	color: #ffffff;
+}
+
+@media(max-width:905px){
+	#H img{
+		width: 550px;
+		height: 400px;
+	}
+}
+@media(max-width:725px){
+	#H img{
+		width: 440px;
+		height: 340px;
+	}
+}
+@media(max-width:615px){
+	#a img{
+		width: 110px;
+		height: 110px;
+	}
+    #b h3{
+		font-size: 17px;
+		font-weight: 200;
+	}
+	#H img{
+		width: 340px;
+		height: 260px;
+	}
+}
+@media(max-width:490px){
+	#H img{
+		width: 280px;
+		height: 240px;
+	}
+}
+@media(max-width:420px){
+	#a img{
+		width: 90px;
+		height: 90px;
+	}
+    #b h3{
+		font-size: 15px;
+		font-weight: 160;
+	}
+	#TEST .contenTes {
+		padding: 70px 0;	
+	}
+	.testimonial-text{
+		padding: 10px 50px;
+	}
+}
+@media(max-width:420px){
+	#H img{
+		width: 260px;
+		height: 220px;
+	}
+}
+@media(max-width:370px){
+	#H img{
+		width: 240px;
+		height: 210px;
+	}
+}
+@media(max-width:325px){
+	#H img{
+		width: 210px;
+		height: 180px;
+	}
+}

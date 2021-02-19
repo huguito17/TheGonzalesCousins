@@ -1,0 +1,129 @@
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo {
+    color: #000000;
+    text-shadow: 0px 0px 2px black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}  
+.titulo{
+    border-bottom: #5f9d07 solid 3px;
+    width: 320px;
+    margin: 0 auto;
+	margin-bottom: 40px;
+}  
+main .sobre-nosotros{
+    padding: 40px 0 10px 0;
+}
+#TWO .sobre-nosotros{
+    padding: 0px 0 30px 0;
+} 
+#TWO img{
+    box-shadow: 2px 1px 7px black;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#Services img{
+    box-shadow: 2px 1px 7px black;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.conten{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 48%;
+}
+.sobre-nosotros .contenido-textos{
+    width: 50%;
+    margin-left: 10px;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+    background: #5f9d07;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+.contenido-textos p{
+    padding: 0px 0px 20px 20px;
+    font-size: 16px;
+    text-align: left;
+}
+#TWO .contenido-textos h3{
+    margin-bottom: 15px;
+    text-align: center;
+}
+#TWO .contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: justify;
+} 
+@media screen and (max-width:900px){
+    .conten{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    /* ABOUT US */
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+    .titulo {
+        font-size: 23px;
+    }  
+    .contenido-textos p{
+        font-size: 15px;
+    } 
+    #TWO .contenido-textos p{
+        padding: 0px 0px 30px 0px;
+        font-size: 15px;
+    } 
+    #TWO .sobre-nosotros .contenido-textos{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:290px){
+    .contenido-textos h3{
+        font-size: 16px;
+    }
+    .titulo {
+        text-align: center;
+    }  
+    .titulo{
+        border-bottom: #5f9d07 solid 3px;
+        width: 270px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }  
+} 

@@ -1,0 +1,83 @@
+#Data{
+    padding: 60px 0; 
+	background: #5f9d07;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+#Data h3{
+	font-size: 24px;
+    padding: 5px 0;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 30px; 
+    border-bottom: #472407 solid 3px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+} 
+#Data .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+#Data .Data-pod{
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    -o-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 20px 5px rgba(0,0,0,0);
+    -moz-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 20px 5px rgba(0,0,0,0);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 20px 5px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 20px 5px rgba(0,0,0,0);
+    background-color: #0A1C22;
+    border-radius: 10px;
+}
+.Data-pod:hover{
+    transform: scale(1.05);
+}
+
+.Data-pod > #D img{ 
+	width: 200px;
+	height: 200px;
+	border-radius: 20%;
+    padding: 10px;
+    object-fit: cover;
+}
+.H{
+    position: absolute;
+    width: 200px;
+	height: 200px;
+    top: 0;
+    transform: scale(0);
+    transition: transform .5s;
+}
+.H img{
+    width: 200px;
+	height: 200px;
+	border-radius: 20%;
+    padding: 10px;
+    object-fit: cover;
+}
+.Data-pod:hover .H{
+    transform: scale(1);
+    transition: transform 1s;
+}
+.Data-pod h4{
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+.Data-pod:hover h4{
+    text-shadow: 0 0 10px #49ff18, 0 0 20px #49FF18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 50px #49ff18, 2px 2px 0px rgba(99,206,154,0);
+    transition: transform 1.5s;
+}
+@media(min-width:480px){
+    .Data-pod{
+        width: 40%;
+    }
+}
+@media(min-width:720px){
+    .Data-pod{
+        width: auto;
+    }
+}

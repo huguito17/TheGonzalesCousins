@@ -1,0 +1,20 @@
+English:
+PUBLIC LICENSE PAGE, WEB PORTAL DESIGN PROJECT
+     Version 07, December 2020
+
+     Copyright (C) 2020 Hugo Murillo <hmurillo464@hotmail.com>
+
+     Everyone is allowed to copy and distribute verbatim or modified
+     copies of this license document, and it is permitted to change it provided that
+     As the name is changed, please notify the above prescribed email of its use.
+
+     
+Spanish:
+PAGINA DE LICENCIA PÚBLICA, PROYECTO DE DISEÑO DE PORTALES WEB
+     Versión 07, diciembre de 2020
+
+     Copyright (C) 2020 Hugo Murillo <hmurillo464@hotmail.com>
+
+     Todo el mundo tiene permitido copiar y distribuir textualmente o modificado
+     copias de este documento de licencia, y se permite cambiarlo siempre que
+     a medida que se cambia el nombre, se le agradeceria notificar su uso al correo prescrito anteriormente.

@@ -1,0 +1,142 @@
+#Ini{  
+    position: relative;
+}
+#Ini{
+    width: 100%;
+    height: 555px;
+    background: -moz-linear-gradient(to right, hsla(0, 0%, 0%, 0.589), hsla(124, 82%, 19%, 0.671)), url(../IMG/Core/intro-bg.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.589), hsla(124, 82%, 19%, 0.671)), url(../IMG/Core/intro-bg.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.589), hsla(124, 82%, 19%, 0.671)), url(../IMG/Core/intro-bg.jpg);
+    /* PARA>> Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    object-fit: cover;
+    transition: background 400ms;
+} 
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    stroke: none; 
+    fill: rgb(255, 255, 255);
+}
+#Ini .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(253, 253, 253);
+}
+#Ini h2{
+    font-size: 40px;
+    margin-left: 20px;
+}
+#Ini p{
+    margin-left: 20px;
+}
+#Ini a{
+    width: 110px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    color: #000000cc;
+    background: #20ec31;
+    padding: 10px;
+    box-shadow: 1px 2px 4px black;
+    border-radius: 7px;
+    transition: 0.5s;
+    margin-left: 20px;
+} 
+#Ini a:hover{
+    background: #20ec31;
+    box-shadow: 5px 5px 6px black;
+    opacity: 0.7;
+}
+#Ini p{
+    animation-duration: 4s;
+    animation-name: slidein;
+} 
+#Ini h2{
+    animation-duration: 4s;
+    animation-name: slidein;
+} 
+#Services h2{
+    animation-duration: 4s;
+    animation-name: slidein;
+} 
+#por h2{
+    animation-duration: 4s;
+    animation-name: slidein;
+} 
+#cont p{
+    animation-duration: 4s;
+    animation-name: slidein;
+} 
+#TWO h2{
+    animation-duration: 4s;
+    animation-name: slidein;
+} 
+#Data h3{
+    animation-duration: 4s;
+    animation-name: slidein;
+} 
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%
+    }
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
+@media(min-width:280px){
+    #Ini h2{
+        font-size: 30px;
+    }
+    #Ini a{
+        margin-top: 25px;
+    }
+    #Ini p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+@media(min-width:480px){
+    #Ini h2{
+        font-size: 40px;
+    }
+    #Ini a{
+        margin-top: 25px;
+    }
+    #Ini p{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+@media(max-width:480px){
+    #Ini{
+        height: 400px;
+    }
+}
+@media(min-width:768px){
+    #Ini{
+        height: 500px;
+        overflow: hidden;
+    }
+    #Ini h2{
+        font-size: 45px;
+        margin-left: 0px;
+    }
+    #Ini p{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 0px;
+    }
+    #Ini a{
+        
+        margin-left: 0px;
+    } 
+}

@@ -1,0 +1,115 @@
+    /* Footer */
+    footer{
+        background: #122C34;
+        padding: 40px 0 0px 0;
+        margin: auto;
+        overflow: hidden;
+    }      
+    footer .titulo-final{
+        background: #0A1C22;
+    }
+    .contenedor-footer{
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 30px;
+        border-bottom: 4px groove #487904;
+    }  
+    .content-foo{
+        text-align: center;
+    }   
+    .content-foo h4{
+        color: #fff;
+        border-bottom: 4px double #487904;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }    
+    .content-foo p{
+        color: #ccc;
+        font-weight: bold;
+    }  
+    .content-foo i{
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 27px;
+        box-shadow: 0px 0px 5px black;
+        margin-bottom: 10px;
+    }   
+    #F i{
+        width: 50px;  
+        height: 30px;
+        color: #ffffff; 
+        background-color: rgb(3, 6, 145);
+    }
+    #W i{
+        width: 50px;
+        height: 30px;
+        color: #138804; 
+        background-color: rgb(255, 255, 255);
+    }
+    #L i{
+        width: 50px;
+        height: 30px;
+        color: #ffffff; 
+        background-color: rgb(19, 120, 202);
+    }
+    #F i:hover{
+        opacity: 0.4;
+        font-size: 35px;
+        transition: All 0.5s;
+    }
+    #W i:hover{
+        opacity: 0.4;
+        font-size: 35px;
+        transition: All 0.5s;
+    }
+    #L i:hover{
+        opacity: 0.4;
+        font-size: 35px;
+        transition: All 0.5s;
+    }
+    .titulo-final{
+        padding-top: 20px;
+        text-align: center;
+        font-size: 23px;
+        color: #9e9797;
+        padding-bottom: 10px;
+    }  
+    @media screen and (max-width:500px){
+        .contenedor-footer{
+            flex-direction: column;
+            border: none;
+        }
+        .content-foo{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #L{
+            margin-bottom: 0px;
+            text-align: center;
+        }
+        .content-foo h4{
+            border: none;
+        }    
+        .content-foo p{
+            color: #ccc;
+            border-bottom: 2px solid  #5f9d07;
+            padding-bottom: 20px;
+        }    
+        .titulo-final{
+            padding-top: 30px;
+            font-size: 18px;
+        }
+        .titulo-final h2{
+            padding-bottom: 20px;
+        }
+        .contenedor-footer{
+            padding-bottom: 0px;
+        }
+    }
+    @media screen and (max-width:340px){
+        .titulo-final{
+            font-size: 14px;
+        }
+    } 
